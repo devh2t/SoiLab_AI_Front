@@ -1,6 +1,6 @@
-# 🚀 React Native Query Boilerplate with Zustand (RN / Expo)
+# 🚀 SoiLab AI is a Powerful Solution powered by H2T TEAM & built with lovely stack  
 
-[![React Native](https://img.shields.io/badge/React%20Native-v0.66.0-green.svg)](https://facebook.github.io/react-native/)
+[![React Native](https://img.shields.io/badge/React%20Native-v0.70.6-green.svg)](https://facebook.github.io/react-native/)
 [![React Navigation V6](https://img.shields.io/badge/React%20Navigation-v6.0-blue.svg)](https://reactnavigation.org/)
 
 ## Built using
@@ -16,25 +16,22 @@
 
 </p>
 
+## Our stack
 
-
-
-## Features
-- [Expo](https://docs.expo.dev/) support. Check expo branch.
 - [Typescript](https://www.typescriptlang.org/) support.
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [React Query](https://react-query.tanstack.com)
 - [Zustand](https://github.com/pmndrs/zustand)
 - [React Navigation](https://reactnavigation.org/) with [Authentication flow](https://reactnavigation.org/docs/auth-flow) baked in & theming support.
 - [React Native Gesture Handler](https://github.com/kmagiera/react-native-gesture-handler)
-- [React Native Paper](https://callstack.github.io/react-native-paper/)- with theming support 
+- [React Native Paper](https://callstack.github.io/react-native-paper/)- with theming support
 - [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 - [Jest](https://facebook.github.io/jest/)
 - [Eslint](http://eslint.org/) ([Airbnb config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
 
-
 ## How this looks
-  <img height="720" src="https://user-images.githubusercontent.com/15869386/136666124-76a50fc3-8320-4a79-8256-354334ce7685.gif" />
+
+  <img height="100" src="./app/assets/logo.png" />
   
 ## Prerequisites
 
@@ -45,10 +42,12 @@
 ## Getting Started
 
 1. Clone this repo
-2. Go to project's root directory, `cd <your project name>`
-3. Remove `.git` folder, `rm -rf .git`
+2. Go to project's root directory, `cd SoiLab_AI_Front`
+
 - On Android:
-  - Run `react-native run-android` or Use Android Studio (Recommended)
+  - first `yarn install`
+  - Run `npx react-native start && npx react-native run-android` or Use Android Studio (Recommended)
 - On iOS:
   - Open `ios/YourReactProject.xcworkspace` in Xcode
   - Hit `Run` after selecting the desired device
+  - From terminal ,run `npx react-native start && npx react-native run-ios`

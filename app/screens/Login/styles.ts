@@ -15,6 +15,11 @@ const styles = StyleSheet.create({
   labelStyle: {
     fontSize: 12,
   },
+  logo: {
+    width: 130,
+    height: 128,
+    marginBottom: 22,
+  },
 });
 
 export default styles;

@@ -1,7 +1,7 @@
 import React from 'react';
-import { View } from 'react-native';
-import { Text, Button } from 'react-native-paper';
-
+import { View, Image } from 'react-native';
+import { Text, Button, Avatar } from 'react-native-paper';
+import images from '../../config/images';
 import styles from './styles';
 import NavigationService from 'app/navigation/NavigationService';
 import { useStore } from 'app/store';
@@ -16,9 +16,14 @@ const Login: React.FC = () => {
   return (
     <View style={styles.container}>
       <View style={styles.container}>
-        <Text style={styles.login}>Login Status </Text>
+        <Image
+          style={styles.logo}
+          source={images.icons.logo}
+          resizeMode="contain"
+        />
+        <Text style={styles.login}>Bienvenue chez SoiLab AI</Text>
         <Button icon="login" mode="outlined" onPress={onLogin}>
-          Login
+          Se connecter
         </Button>
         <Button
           mode="text"
